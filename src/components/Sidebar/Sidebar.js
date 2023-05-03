@@ -61,9 +61,9 @@ const structure = [
     link: "/app/user",
     icon: <TableIcon />,
     children: [
-      { label: "User List", link: "/app/user/User List" },
-      { label: "User Add", link: "/app/user/User Add" },
-      { label: "User Edit", link: "/app/user/User Edit" },
+      { label: "User List", link: "/app/user/UserList" },
+      { label: "User Add", link: "/app/user/UserAdd" },
+      { label: "User Edit", link: "/app/user/UserEdit" },
     ],
   },
   {
@@ -74,7 +74,7 @@ const structure = [
     children: [
       {
         label: "Coupons",
-        link: "/app/marketing/coupons",
+        link: "/app/marketing/cards",
       },
       {
         label: "Engagement",
