@@ -74,7 +74,7 @@ const structure = [
     children: [
       {
         label: "Coupons",
-        link: "/app/marketing/cards",
+        link: "/app/marketing/coupons",
       },
       {
         label: "Engagement",

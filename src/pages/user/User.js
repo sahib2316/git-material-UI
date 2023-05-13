@@ -1,5 +1,5 @@
 import React from "react";
-import Tables from "../tables/Tables";
+import UserAdd from "./UserAdd";
 
 import { withRouter } from "react-router-dom";
 
@@ -7,7 +7,7 @@ function User() {
   return (
     <>
       <div>
-        <Tables />
+        <UserAdd />
       </div>
     </>
   );

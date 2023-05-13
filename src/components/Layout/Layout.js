@@ -28,6 +28,7 @@ import Icons from "../../pages/icons";
 import Charts from "../../pages/charts";
 import User from "../../pages/user/User";
 import Marketing from "../../pages/marketing/Marketing";
+import UserAdd from "../../pages/user/UserAdd";
 
 // context
 import { useLayoutState } from "../../context/LayoutContext";
@@ -62,8 +63,24 @@ function Layout(props) {
             <Route path="/app/ui/maps" component={Maps} />
             <Route path="/app/ui/icons" component={Icons} />
             <Route path="/app/ui/charts" component={Charts} />
-            <Route path="/app/user" component={User} />
-            <Route path="/app/marketing" component={Marketing} />
+            <Route
+              exact
+              path="/app/user"
+              render={() => <Redirect to="/app/user/tables" />}
+            />
+            <Route path="/app/user/UserAdd" component={UserAdd} />
+            <Route path="/app/user/" component={User} />
+            <Route
+              exact
+              path="/app/marketing"
+              render={() => <Redirect to="/app/marketing/coupons" />}
+            />
+            <Route path="/app/marketing/coupons" component={Icons} />
+            <Route path="/app/marketing/engagement" component={Maps} />
+            <Route
+              path="/app/marketing/customer-relations"
+              component={Typography}
+            />
           </Switch>
           <Box
             mt={5}
