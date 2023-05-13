@@ -17,7 +17,7 @@ function UserAdd() {
     <>
       <div className="container-fluid backgroundColor">
         <div className="my-3">
-          <nav className="navbar navbar-expand-lg bg-body-tertiary">
+          <nav className="navbar navbar-expand-lg backgroundColor">
             <div className="">
               <a className="navbar-brand" href="#">
                 App
@@ -32,6 +32,8 @@ function UserAdd() {
           </nav>
           {/* <NavTabs /> */}
         </div>
+      </div>
+      <div className="container-fluid backgroundColor">
         <div className="mx-3">
           <h3>Add Users</h3>
         </div>
