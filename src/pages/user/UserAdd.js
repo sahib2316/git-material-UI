@@ -106,13 +106,25 @@ function UserAdd() {
               <div className="container-fluid">
                 <div className="row">
                   <div className="col-md-3 mr-2">
-                    <SmallBtn Text="SAVE" />
+                    <SmallBtn
+                      type="button"
+                      className="btn btn-outline-primary"
+                      Text="SAVE"
+                    />
                   </div>
                   <div className="col-md-3 mx-2">
-                    <SmallBtn Text="RESET" />
+                    <SmallBtn
+                      type="button"
+                      className="btn btn-outline-primary"
+                      Text="RESET"
+                    />
                   </div>
                   <div className="col-md-3 mx-2">
-                    <SmallBtn Text="CANCEL" />
+                    <SmallBtn
+                      type="button"
+                      className="btn btn-outline-primary"
+                      Text="CANCEL"
+                    />
                   </div>
                 </div>
               </div>

@@ -25,7 +25,13 @@ export default function ContainedButtons(props) {
       <Button variant="contained" disabled>
         Disabled
       </Button> */}
-      <Button variant="contained" color="primary" href="#contained-buttons">
+      <Button
+        type={props.type}
+        variant="contained"
+        color="primary"
+        className={props.className}
+        href="#contained-buttons"
+      >
         {props.Text}
       </Button>
     </div>
