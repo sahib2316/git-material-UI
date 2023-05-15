@@ -60,7 +60,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function NavTabs() {
+export default function NavTabs(props) {
   const classes = useStyles();
   const [value, setValue] = React.useState(0);
 
@@ -77,6 +77,9 @@ export default function NavTabs() {
           onChange={handleChange}
           aria-label="nav tabs example"
         >
+          {/* <LinkTab label={props.label} href={props.href} {...a11yProps(0)} />
+          <LinkTab label={props.label} href={props.href} {...a11yProps(1)} />
+          <LinkTab label={props.label} href={props.href} {...a11yProps(2)} /> */}
           <LinkTab label="App" href="/app" {...a11yProps(0)} />
           <LinkTab label="User" href="/app/user" {...a11yProps(1)} />
           <LinkTab label="New" href="/app/user/UserAdd" {...a11yProps(2)} />

@@ -19,6 +19,15 @@ function UserAdd() {
         <div className="my-3">
           <nav className="navbar navbar-expand-lg backgroundColor">
             <div className="">
+              {/* <a className="navbar-brand">
+                <NavTabs label="App" href="/app/dashboard" />
+              </a>
+              <a className="navbar-brand">
+                <NavTabs label="User" href="/app/user" />
+              </a>
+              <a className="navbar-brand">
+                <NavTabs label="New" href="/app/user/UserAdd" />
+              </a> */}
               <a className="navbar-brand" href="#">
                 App
               </a>
@@ -38,16 +47,16 @@ function UserAdd() {
           <h3>Add Users</h3>
         </div>
         <div className="my-3 text-dark">
-          <TextField placeholder="First Name" label="" />
+          <TextField placeholder="First Name" label="First Name" />
         </div>
         <div className="my-3 text-dark">
-          <TextField placeholder="Last Name" label="" />
+          <TextField placeholder="Last Name" label="Last Name" />
         </div>
         <div className="my-3 text-dark">
-          <TextField placeholder="Phone Number" label="" />
+          <TextField placeholder="Phone Number" label="Phone Number" />
         </div>
         <div className="my-3 text-dark">
-          <TextField placeholder="E-Mail" label="" />
+          <TextField placeholder="E-Mail" label="E-Mail" />
         </div>
         <div className="mx-3 my-2">
           <h5>Role</h5>
